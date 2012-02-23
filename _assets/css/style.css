@@ -1,0 +1,50 @@
+body {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #000000;
+  font: 81.3%/1.538em "Lucida Grande","Lucida Sans Unicode",sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-text-size-adjust: 100%
+}
+
+ul.links, ul.links.inline, ul.links li, .block ul, ul, .item-list ul, .item-list ul li {
+    list-style: none outside none;
+}
+
+html {
+  height: 100%;
+}
+
+body, #wrapper {
+  min-height: 100%;
+}
+
+#wrapper {
+  background-color: dimgray;
+}
+
+.slider {
+  padding: 0;
+  margin: 0;
+}
+
+.slider > li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #333333;
+    position: relative;
+    padding: 0;
+}
+
+    
+    .cf:before,
+    .cf:after {
+        content:"";
+        display:table;
+    }
+    
+    .cf:after {
+        clear:both;
+    }
+    
+
+
